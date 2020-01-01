@@ -18,12 +18,6 @@ sap.ui.define([
 			this._ResourceBundle = this.getModel( "i18n" ).getResourceBundle();			
 			this._JSONModel = new JSONModel();
 			this.setModel(this._JSONModel);		
-			// var oView = this.getView();
-			// var fValidator = function(args){
-			// 	var text = args.text;
-			// 	return new Token({key: text, text: text});
-			// };
-			// oView.byId("FuncLocation").addValidator(fValidator);	
 			this.initDateRange();			
 			this.getInitData();				
 		},
