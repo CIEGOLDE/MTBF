@@ -18,6 +18,7 @@ sap.ui.define([
 			this._ResourceBundle = this.getModel( "i18n" ).getResourceBundle();			
 			this._JSONModel = new JSONModel();
 			this.setModel(this._JSONModel);		
+			// Inita Date Range
 			this.initDateRange();			
 			this.getInitData();				
 		},
