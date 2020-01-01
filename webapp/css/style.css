@@ -1,0 +1,206 @@
+div[id*="searchCondition"] .sapMComboBoxTextField {
+    margin: 0.25rem 0;
+    height: 2rem;
+}
+
+/*设置combox右间距*/
+.profix{
+	font-size:1.4rem  !important; 
+    text-align: center	
+}
+.profixSelect{
+		top:15%;
+}
+/*设置title字体大小*/
+.hboxBackgroundColor{
+	background-color: white;
+}
+
+/*去除uiTable的抬头描述的竖线*/
+/*table[id*="materialTable"] .sapUiTableCol {
+    vertical-align: top;
+    box-sizing: border-box;
+    min-height: 2rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-right: 0px solid #dddddd;
+   background-color: #f7f7f7;
+    color: #333333;
+}*/
+/*去除uiTable的表内容的竖线*/
+/*table[id*="materialTable"] .sapUiTableTr>td {
+    border-right: 0px solid #dddddd; 
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+}*/
+
+.materialHelp {
+        margin-top: 20px !important;
+        line-height: 0px !important;
+}
+
+/*去除uiTable的抬头描述的竖线*/
+ /* table[id*="PjmaterialTable"] .sapUiTableCol {
+    vertical-align: top;
+    box-sizing: border-box;
+    min-height: 2rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-right: 0px solid #dddddd;
+  background-color: #f7f7f7;
+    color: #333333;
+}*/
+/*去除uiTable的表内容的竖线*/
+/*table[id*="PjmaterialTable"] .sapUiTableTr>td {
+    border-right: 0px solid #dddddd; 
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+}*/
+
+/*div[class ='insertWidth'] :first-child{
+	width:100%;
+}*/
+
+/*div[class ='hboxBackgroundColor'] :first-child div{
+	width:100%;
+}*/
+
+.hboxBackgroundPanel .sapMFlexItemAlignAuto{
+	width:100%;
+}
+
+.insertWidth .sapMFlexBoxBGTransparent {
+    background-color: transparent;
+    width: 100%;
+}
+
+.buttonDesign .sapMBtnInner {
+    background-color: #ffffff;
+    border: 1px solid #ababab;
+    border-radius: 0.2rem;
+    height: 2rem;
+    color: #346187;
+    text-shadow: 0 1px rgba(255,255,255,0.5);
+}
+.buttonDesign .sapMBtnContent {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+    line-height: 2rem;
+}
+.buttonPosition {
+    top: 40%;
+}
+/*修改checkbox的css*/
+.sapMCbBgDis {
+    opacity: 1;
+}
+
+.mbtfCheckBox .sapMCbBg {
+    background-color: #27408B;
+    border: solid 0rem #5865A8; 
+    display: inline-block;
+    position: absolute;
+    height: 1.125rem;
+    width: 1.125rem;
+    line-height: 1.125rem;
+    padding: 0;
+    text-align: center;
+    -webkit-focus-ring-color: none;
+}
+.targetCheckBox .sapMCbBg {
+    background-color: #B34D4D;
+    border: solid 0rem #bfbfbf; 
+    display: inline-block;
+    position: absolute;
+    height: 1.125rem;
+    width: 1.125rem;
+    line-height: 1.125rem;
+    padding: 0;
+    text-align: center;
+    -webkit-focus-ring-color: none;
+}
+.redCheckBox .sapMCbBg {
+    background-color: #EC8E7D;
+    border: solid 0rem #bfbfbf; 
+    display: inline-block;
+    position: absolute;
+    height: 1.125rem;
+    width: 1.125rem;
+    line-height: 1.125rem;
+    padding: 0;
+    text-align: center;
+    -webkit-focus-ring-color: none;
+}
+.sapMPanelContent {
+    padding: 1rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+    overflow: auto;
+    white-space: normal;
+}
+.sapUiSizeCompact .sapMBtn {
+    height: 2.000rem;
+    padding: 0.1875rem;
+}
+
+.buttonSearch{
+	float:right;
+}
+
+.conditionClass .sapMBtnText{
+	background-color:#FF6800;
+	/*border-radius:0;*/
+	color:#ffffff;
+	border:0px white solid;
+}
+
+.conditionClass1 .sapMBtnText{
+	background-color:#ffffff;
+	/*border-radius:0;*/
+	color:#FF6800;
+	border:1px #FF6800 solid;
+}
+
+.fixedClass{
+	   width: 99%;
+    position: fixed;
+    z-index: 2;
+}
+.fixedClass1{
+	width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.fixedVBoxClass{
+	margin-top:5%;
+}
+.buttonClass span{
+	color: #FF6800;
+    border-color: #FF6800 !important;
+}
+body {
+	    background-color: #F7F9FB !important;
+}
+.uiTableNoData {
+	text-align:center !important;
+	position:absolute;
+	top:50%;
+	display:inline-block;
+	left:0;
+	width:100%;
+	box-sizing:border-box;
+	padding:0.2rem 1rem;
+	transform:translateY(-50%);
+	white-space:pre-wrap;
+	font-size:1rem;
+
+}
+.updataTimeLoc{
+	margin-top:2%;
+}

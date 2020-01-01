@@ -1,0 +1,37 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout"
+	xmlns:u="sap.ui.unified" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<Dialog id="locDialog" title="Functional Location">
+		<content>
+			<!-- Functional Location Search Help -->
+			<Panel expandable="false" expanded="true">
+				<SearchField liveChange="onLocF4Search" width="100%" id="FunctionalLocation-FuncLocationStructure" />
+				<Table id="ZLOCATION_TTable" items="{/locationF4Set}" growing="true" growingThreshold="100" mode='SingleSelect'>
+					<columns>
+						<Column>
+							<Text text="Functional Location" />
+						</Column>
+						<Column minScreenWidth="Tablet">
+							<Text text="Location Structure" />
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem>
+							<cells>
+								<Text text="{FunctionalLocation}" />
+								<Text text="{FuncLocationStructure}" />
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</Panel>
+		</content>
+		<buttons>
+			<!-- 确认按钮 -->
+			<Button type="Emphasized" text="Confirm"
+				press="onConfirmAction" visible="true" />
+			<!-- 取消按钮 -->
+			<Button type="Emphasized" text="Cancel"
+				press="onCancelAction" />
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>
