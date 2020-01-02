@@ -158,12 +158,6 @@ sap.ui.define([
 				})				
 				);						
 			/* eslint-disable sap-no-ui5base-prop */			
-			// if(FuncLocation.length>0){
-			// 	// for(i=0;i<FuncLocation.length;i++){
-			// 	// 	// allFilters.push(new Filter('FunctionalLocation', FilterOperator.EQ, FuncLocation));
-			// 	// }
-			// }	
-			/* eslint-disable sap-no-ui5base-prop */			
 			var mParameters = {
 				filters: allFilters,
 				success: function (oData) {
@@ -203,7 +197,7 @@ sap.ui.define([
 					new Filter({
 						path:"FunctionalLocation",
 						operator: FilterOperator.EQ,
-						value1: "FuncLocation"
+						value1: FuncLocation
 					})				
 				];				
 			if (downDate){
